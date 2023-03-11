@@ -15,7 +15,8 @@ Where git.sh automates git pushes.
 Note: it was necessary to store my credentials using the following commands: 
 
 -git config credential.helper store
-git push https://github.com/owner/repo.git
+
+-git push https://github.com/owner/repo.git
 
 Username for 'https://github.com': <USERNAME>
 Password for 'https://USERNAME@github.com': <PASSWORD>
