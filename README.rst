@@ -10,9 +10,9 @@ crontab -e
 
 17 * * * * path/to/bash.sh
 
-Where the bash.sh (git.sh) automates git pushes.
+Where git.sh automates git pushes.
 
-***Note: it was necessary to store my credentials using the following commands: 
+Note: it was necessary to store my credentials using the following commands: 
 
 git config credential.helper store
 git push https://github.com/owner/repo.git
